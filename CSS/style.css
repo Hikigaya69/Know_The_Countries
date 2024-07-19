@@ -1,0 +1,314 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Golos Text', sans-serif;
+   
+    
+}
+.header{
+    min-height: 103vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/2.jpg.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    font-size: 45px;
+}
+h1{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 45px;
+    font-weight: 100px;
+
+}
+nav{
+display: flex;
+padding: 3% 6%;
+justify-content: space-between;
+align-items: center;
+
+}
+
+.nav-links{
+    flex: 1;
+    text-align: right;
+
+}
+.nav-links ul li{
+list-style: none;
+display: inline-block;
+padding: 8px 12px;
+position: relative;
+
+    }
+.nav-links ul li a    {
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+        
+    }    
+
+.nav-links ul li ::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: red;
+    display: block;
+    margin: auto;
+    transition: 0.3s;
+
+}   
+.nav-links ul li:hover ::after {
+    width: 100%;
+    
+}   
+
+
+/*-----About us----*/
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(204, 205, 210, 0.7),rgba(4,9,30,0.7)),url(images/6.jpg.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+ h7{
+    position: relative;
+text-align: center;
+justify-content: center;   
+font-size: 45px; 
+color: white;
+left: 647px;
+text-decoration: underline;
+}
+p{
+    color: white;
+    font-size: 20px;
+}
+.contactus-btn{
+    display: inline-block;
+    text-decoration: none;
+    color:white;
+    border: 1px solid white;
+    padding: 12px 34px;
+    font-size: 24px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    top: -3px;
+}
+.contactus-btn:hover{
+    order: 1px solid red;
+    background: solid red;
+    transition: 1s;
+}
+/*-----contact us----*/
+.headerr{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/5.jpg.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+h3{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin-bottom: 40px;
+
+}
+.contactbox{
+    background: white;
+    display: flex;
+}
+.contact-left{
+    flex-basis: 60%;
+    padding: 40px 60px;
+}
+.contact-right{
+    flex-basis: 40%;
+    padding: 40px ;
+    background: #1c00b5;
+    color: white;
+}
+.input-row{
+display: flex;
+justify-content: space-between;
+margin-bottom: 20px;
+}
+.input-row .input-grup{
+    flex-basis: 45%;
+
+}
+input{
+    width: 100%;
+    
+    border: none;
+  
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+}
+textarea {
+    width: 100%;
+    border: 1px solid white;
+    padding: 10px;
+   
+    box-sizing: border-box;
+}
+h4{
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+label{
+    margin-bottom: 6px;
+    display: block;
+    color: lightskyblue;
+}
+button{
+    background: #1c00b5;
+    width: 100px;
+    border: none;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 20px;
+    color: white;
+    justify-content: center;
+    
+}
+tr td:first-child{
+    padding-right: 30px;
+
+}
+tr td{
+    padding-top: 30px;
+}
+    
+.hero{
+
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(images/login.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+.form-box{
+width: 380px;
+height: 480px;
+position: relative;
+margin: 6% auto;
+background: #fff;
+padding: 5px;
+overflow: hidden;
+
+    
+}
+.buttonbox{
+   width: 204px;
+   margin: 45px auto;
+   justify-content: center;
+   position: relative;
+   border-radius: 20px;
+   box-shadow: 0 0 20px 9px rgb(255, 185, 185); 
+   padding: 10px 20px;
+}
+.toggle-btn{
+padding: 10px 20px;
+cursor: pointer;
+background: rgb(142, 56, 56);
+border: 0;
+outline: none;
+position: relative;
+
+
+
+}
+.social{
+margin: 30px auto;
+text-align: center;
+
+}
+.social img{
+width: 30px;
+margin: 0 12px;
+box-shadow: 0 0 20px 0 #7f7f7f3d ;
+cursor: pointer;
+border-radius: 50%;
+
+
+}
+.input-grp{
+ 
+    
+
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition: 0.5s;
+
+}
+.input-field{
+width: 100%;
+padding: 10px 0 ;
+margin:  5px 0;
+border-left: 0;
+border-right: 0;
+border-top: 0;
+border-bottom: 1px solid #999;
+outline: none;
+background: transparent;
+
+
+
+}
+.submit-btn{
+width: 85%;
+padding: 10px 30px;
+cursor: pointer;
+display: block;
+margin: auto;
+background: rgb(142, 56, 56);
+border: 0;
+outline: none;
+border-radius: 30px;
+
+
+}
+.check-box{
+margin: 30px 10px 30px 0;
+
+
+}
+span{
+color: #777;
+font-size: 15px;
+bottom: 78px;
+position: absolute;
+
+
+}
+#login{
+    left: 50px;
+
+}
+
+#register{
+    left: 450px;
+    
+}
+
+#btn {
+    top: 73%;
+    left: 50%;
+    transform: translateX(-50%);
+    position: fixed;
+    width: 110px;
+    height: 25;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+
+
